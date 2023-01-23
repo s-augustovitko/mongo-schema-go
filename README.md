@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-go get -u github.com/s-augustovitko/mongo-schema-go/pkg/schema
+go get github.com/s-augustovitko/mongo-schema-go
 ```
 
 ## Basic Usage

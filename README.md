@@ -1,5 +1,13 @@
 # Mongo Schema Go
 
+## Installation
+
+```bash
+go get -u github.com/s-augustovitko/mongo-schema-go/pkg/schema
+```
+
+## Basic Usage
+
 This package is used to create a `MongoDB` schemas based on a golang struct, the most basic usage can be seen in the following example.
 
 ```go
@@ -29,12 +37,6 @@ func main() {
 
     // (...)
 }
-```
-
-## Installation
-
-```bash
-go get -u github.com/s-augustovitko/mongo-schema-go/pkg/schema
 ```
 
 ## Important Notes

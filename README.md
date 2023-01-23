@@ -106,11 +106,6 @@ type ErrorWithTag interface {
 }
 ```
 
-## More information
-
-For more details on mongo schema please follow this link
-[MongoDB Schema](https://www.mongodb.com/docs/manual/core/schema-validation/)
-
 ## Tags
 
 This are the possible tags that the struct can contain with this package, all fields are optional, if everything is empty the schema will have no validations, but the main schema will still be created, for context:
@@ -185,3 +180,8 @@ var multipleOf          = "multipleOf=int|float" // Int, Float or all number typ
 var pattern             = "pattern=string" // String values
 var patternProperties   = "patternProperties=string" // Strings when pattern exists
 ```
+
+## More information
+
+For more details on mongo schema please follow this link
+[MongoDB Schema](https://www.mongodb.com/docs/manual/core/schema-validation/)

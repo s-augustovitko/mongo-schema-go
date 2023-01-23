@@ -31,6 +31,12 @@ func main() {
 }
 ```
 
+## Installation
+
+```bash
+go get -u github.com/s-augustovitko/mongo-schema-go/pkg/schema
+```
+
 ## Important Notes
 
 An important thing to consider is that ID fields instead of using the `primitive.ObjectId` type, make sure to use `interface{}`. For other complex structures like dates make sure to always use the `type` or `itemsType` tags. This is because this module uses no external dependencies, and focuses mostly on the reflect package.
@@ -82,12 +88,6 @@ func main() {
 
     // (...)
 }
-```
-
-## Installation
-
-```bash
-go get -u github.com/s-augustovitko/mongo-schema-go/pkg/schema
 ```
 
 ## Marshal Response Structure
